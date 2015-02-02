@@ -56,6 +56,7 @@ Slack.prototype.respond = function(query,cb) {
   obj.user_id = query.user_id;
   obj.user_name = query.user_name;
   obj.text = query.text;
+  obj.command = query.command;
   return obj;
 }
 
